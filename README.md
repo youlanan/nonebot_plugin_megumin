@@ -1,5 +1,5 @@
 <div align="center">
-  <a href="https://v2.nonebot.dev/store"><img src="https://github.com/youlanan/nonebot_plugin_megumin/img/nbp_logo.png" width="180" height="180" alt="NoneBotPluginLogo"></a>
+  <a href="https://v2.nonebot.dev/store"><img src="https://github.com/youlanan/nonebot_plugin_megumin/blob/main/img/nbp_logo.png" width="180" height="180" alt="NoneBotPluginLogo"></a>
   <br>
   <p><img src="https://github.com/A-kirami/nonebot-plugin-template/blob/resources/NoneBotPlugin.svg" width="240" alt="NoneBotPluginText"></p>
 </div>
@@ -57,4 +57,4 @@ _✨ 为美好群聊献上爆炎 ✨_
 
 注：如果给bot配置过指令前缀, 则触发指令为前缀+指令, 例如 /爆裂魔法
 ### 效果图
-<img src="https://github.com/youlanan/nonebot_plugin_megumin/img/help.png" alt="python">
+<img src="https://github.com/youlanan/nonebot_plugin_megumin/blob/main/img/help.png" width="300" height="700" alt="效果图">
