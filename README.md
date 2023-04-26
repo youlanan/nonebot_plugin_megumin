@@ -32,7 +32,7 @@ _爆裂魔法啦啦啦(⑅ōᴗō)۶..._
 <summary>使用 nb-cli 安装</summary>
 在 nonebot2 项目的根目录下打开命令行, 输入以下指令即可安装
 
-    施工中
+    nb plugin install nonebot_plugin_megumin
 
 </details>
 
@@ -43,17 +43,24 @@ _爆裂魔法啦啦啦(⑅ōᴗō)۶..._
 <details>
 <summary>pip</summary>
 
-    pip install 施工中
+    pip install nonebot_plugin_megumin
 </details>
 
 打开 nonebot2 项目根目录下的 `pyproject.toml` 文件, 在 `[tool.nonebot]` 部分追加写入
 
-    plugins = ["施工中"]
+    plugins = ["nonebot_plugin_megumin"]
+
+</details>
+
+<details>
+<summary>下载 本仓库源码 安装</summary>
+
+    下载后将 nonebot_plugin_megumin 丢进nb目录下的src/plugin目录下, 确保正确配置nb可以载入该目录内的插件
 
 </details>
 
 - 需要发送视频或语音, 所以请确保你安装并正确配置了ffmpeg
-- 完成上述任意步骤后，下载项目' 爆炎资源包 '中的' Explosion.zip ', 按提示将资源放置在指定位置, 以完成安装
+- 完成上述步骤后，下载项目' 爆炎资源包 '中的' Explosion.zip ', 按提示将资源放置在指定位置, 以完成安装
 - 可供选择的触发形式为视频/语音/混合, 在项目的' cfg.py '文件中进行修改, 有对应注释说明
 
 ## ✨ 指令
