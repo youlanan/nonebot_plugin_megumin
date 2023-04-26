@@ -53,7 +53,7 @@ _爆裂魔法啦啦啦(⑅ōᴗō)۶...
 </details>
 
 - 需要发送视频或语音, 所以请确保你安装并正确配置了ffmpeg
-- 完成上述任意步骤后，下载项目' 附加资源 '中的' Explosion.zip ', 按提示将资源放置在指定位置, 以完成安装
+- 完成上述任意步骤后，下载项目' 爆炎资源包 '中的' Explosion.zip ', 按提示将资源放置在指定位置, 以完成安装
 - 可供选择的触发形式为视频/语音/混合, 在项目的' cfg.py '文件中进行修改, 有对应注释说明
 
 ## ✨ 指令
@@ -67,3 +67,7 @@ _爆裂魔法啦啦啦(⑅ōᴗō)۶...
 注：如果给bot配置过指令前缀, 则触发指令为前缀+指令, 例如 /爆裂魔法
 ### 效果图
 <img src="https://github.com/youlanan/nonebot_plugin_megumin/blob/main/img/help.png" width="300" height="700" alt="效果图">
+
+## ⚡ 项目灵感
+>伊雷娜bot曾经有的功能
+>[借鉴了EXPLOSION-惠惠爆裂魔法语音](https://github.com/pcrbot/Explosion)
