@@ -70,4 +70,5 @@ _爆裂魔法啦啦啦(⑅ōᴗō)۶...
 
 ## ⚡ 项目灵感
 >伊雷娜bot曾经有的功能
+
 >[借鉴了EXPLOSION-惠惠爆裂魔法语音](https://github.com/pcrbot/Explosion)
