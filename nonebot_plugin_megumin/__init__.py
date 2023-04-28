@@ -14,25 +14,25 @@ driver = get_driver()
 @driver.on_startup
 def 魔法文件们():
     主目录 = Path.cwd()
-    魔法目录 = 主目录.joinpath("data/explosion")
+    魔法目录 = 主目录.joinpath('data/explosion')
 
     if not 魔法目录.exists():
-        logger.info(f"\033[31m 没有找到配置目录 {魔法目录} ")
+        logger.info(f'\033[31m 没有找到配置目录 {魔法目录} ')
 
     AAC = list(魔法目录.glob("*.aac"))
     if len(AAC) == 0:
-        logger.info(f"\033[31m 配置目录 {魔法目录} 中没有音频文件 ")
+        logger.info(f'\033[31m 配置目录 {魔法目录} 中没有音频文件 ')
 
     MP4 = list(魔法目录.glob("*.mp4"))
     if len(MP4) == 0:
-        logger.info(f"\033[31m 配置目录 {魔法目录} 中没有视频文件 ")
+        logger.info(f'\033[31m 配置目录 {魔法目录} 中没有视频文件 ')
 
 玩家吟唱 = {}
 补魔次数 = {}
 视频次数 = {}
 无魔防刷屏 = {}
 
-ex = on_command("爆裂魔法", aliases = {'惠惠', 'explosion', '来一发', '爆烈魔法', '暴烈魔法', '献上爆炎'}, permission=GROUP, priority=90)
+ex = on_command('爆裂魔法', aliases = {'惠惠', 'explosion', '来一发', '爆烈魔法', '暴烈魔法', '献上爆炎'}, permission=GROUP, priority=90)
 @ex.handle()
 async def 施法(event: GroupMessageEvent):
     玩家 = event.user_id
@@ -69,7 +69,7 @@ async def 视频(玩家, 今天):
     魔法阵 = random.choice(高端吟唱体验)
 
     主目录 = Path.cwd()
-    魔法目录 = 主目录.joinpath("data/explosion")
+    魔法目录 = 主目录.joinpath('data/explosion')
     绝对魔力 = Path.cwd() / 魔法目录 / 魔法阵
     绝对魔力.resolve()
 
@@ -78,7 +78,7 @@ async def 视频(玩家, 今天):
 
     玩家吟唱.setdefault(玩家, {})
     玩家吟唱[玩家][今天] = 玩家吟唱[玩家].get(今天, 0) + 1
-    logger.info(f"\033[32m 玩家 {玩家} 施展了一次视频爆裂魔法 ")
+    logger.info(f'\033[32m 玩家 {玩家} 施展了一次视频爆裂魔法 ')
 
 
 async def 语音(玩家, 今天):
@@ -86,7 +86,7 @@ async def 语音(玩家, 今天):
     魔咒 = 吟唱词[条目]
 
     主目录 = Path.cwd()
-    魔法目录 = 主目录.joinpath("data/explosion")
+    魔法目录 = 主目录.joinpath('data/explosion')
     绝对魔力 = Path.cwd() / 魔法目录 / 条目
     绝对魔力.resolve()
 
@@ -97,10 +97,10 @@ async def 语音(玩家, 今天):
 
     玩家吟唱.setdefault(玩家, {})
     玩家吟唱[玩家][今天] = 玩家吟唱[玩家].get(今天, 0) + 1
-    logger.info(f"\033[32m 玩家 {玩家} 施展了一次语音爆裂魔法 ")
+    logger.info(f'\033[32m 玩家 {玩家} 施展了一次语音爆裂魔法 ')
 
 
-exp = on_command("补魔", aliases = {'补充魔力', '恢复魔力'}, priority=90)
+exp = on_command('补魔', aliases = {'补充魔力', '恢复魔力'}, priority=90)
 @exp.handle()
 async def 恢复(event: GroupMessageEvent):
     玩家 = event.user_id
@@ -118,7 +118,7 @@ async def 恢复(event: GroupMessageEvent):
 
     补魔次数.setdefault(玩家, {})
     补魔次数[玩家][今天] = 补魔次数[玩家].get(今天, 0) + 1
-    logger.info(f"\033[32m 玩家 {玩家} 为自己补魔 ")
+    logger.info(f'\033[32m 玩家 {玩家} 为自己补魔 ')
 
 
 async def 时间():
@@ -127,7 +127,7 @@ async def 时间():
     return 今天
 
 
-exhelp = on_command("爆裂魔法帮助", aliases = {'爆裂魔法help', '补魔帮助'}, priority=90)
+exhelp = on_command('补魔帮助', aliases = {'爆裂魔法help', '爆裂魔法帮助'}, priority=90)
 @exhelp.handle()
 async def 帮助(event: GroupMessageEvent):
     玩家 = event.user_id
