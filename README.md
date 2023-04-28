@@ -74,8 +74,11 @@ _爆裂魔法啦啦啦(⑅ōᴗō)۶..._
 注：如果给bot配置过指令前缀, 则触发指令为前缀+指令, 例如 /爆裂魔法
 ### 效果图
 <img src="https://github.com/youlanan/nonebot_plugin_megumin/blob/main/img/help.png" width="300" height="700" alt="效果图">
+<img src="https://github.com/youlanan/nonebot_plugin_megumin/blob/main/img/q.png" width="300" height="500" alt="茶话会">
 
 ## ⚡ 项目灵感
 >伊雷娜bot曾经有的功能
 
 >[借鉴了EXPLOSION-惠惠爆裂魔法语音](https://github.com/pcrbot/Explosion)
+
+_（本人纯小白一枚, 如果感觉代码很乱或者出现各种问题纯属正常, 欢迎反馈纠错~）_
