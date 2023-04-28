@@ -74,7 +74,7 @@ _爆裂魔法啦啦啦(⑅ōᴗō)۶..._
 注：如果给bot配置过指令前缀, 则触发指令为前缀+指令, 例如 /爆裂魔法
 ### 效果图
 <img src="https://github.com/youlanan/nonebot_plugin_megumin/blob/main/img/help.png" width="300" height="700" alt="效果图">
-<img src="https://github.com/youlanan/nonebot_plugin_megumin/blob/main/img/q.png" width="300" height="500" alt="茶话会">
+<img src="https://github.com/youlanan/nonebot_plugin_megumin/blob/main/img/q.jpg" width="300" height="500" alt="茶话会">
 
 ## ⚡ 项目灵感
 >伊雷娜bot曾经有的功能
