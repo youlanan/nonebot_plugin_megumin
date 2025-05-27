@@ -20,7 +20,14 @@ import sys
 
 @施法.assign("help")
 async def _():
-    await 施法.finish(get_i18n_tips("help", plugin_config.megumin_language))
+    await 施法.finish(UniMessage(get_help()))
+
+def get_help():
+    """获取帮助信息"""
+    return get_i18n_tips("help", plugin_config.megumin_language).format(
+        "∞" if plugin_config.megumin_max_recover == 0 else plugin_config.megumin_max_recover,
+        "∞" if plugin_config.megumin_max_cast == 0 else plugin_config.megumin_max_cast,
+    )
 
 @施法.handle()
 async def _(session: Uninfo):

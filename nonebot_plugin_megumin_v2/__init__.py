@@ -12,7 +12,7 @@ require("nonebot_plugin_localstore")
 __plugin_meta__ = PluginMetadata(
     name="为美好群聊献上爆炎2",
     description="使群友可以通过Bot施法, 触发惠惠视频或语音文本",
-    usage=get_i18n_tips("help", "zh"),
+    usage=get_help(),
     type="application",
     homepage="https://github.com/youlanan/nonebot_plugin_megumin",
     config=PluginConfig,
