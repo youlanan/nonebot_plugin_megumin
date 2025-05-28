@@ -11,7 +11,7 @@ from .magic import *
 
 __plugin_meta__ = PluginMetadata(
     name="为美好群聊献上爆炎2",
-    description="使群友可以通过Bot施法, 触发惠惠视频或语音文本",
+    description="现在，你的群友可以触发失传已久的爆裂魔法了！ ",
     usage=get_help(),
     type="application",
     homepage="https://github.com/youlanan/nonebot_plugin_megumin",
