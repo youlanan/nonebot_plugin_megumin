@@ -1,12 +1,12 @@
 from nonebot import get_driver, require
 from nonebot.plugin import PluginMetadata, inherit_supported_adapters
 
-from .config import PluginConfig, plugin_config
-from .magic import *
-
 require("nonebot_plugin_uninfo")
 require("nonebot_plugin_alconna")
 require("nonebot_plugin_localstore")
+
+from .config import PluginConfig, plugin_config
+from .magic import *
 
 
 __plugin_meta__ = PluginMetadata(
@@ -29,7 +29,6 @@ from nonebot.log import logger
 import urllib.request
 import asyncio
 import zipfile
-import time
 
 driver = get_driver()
 
