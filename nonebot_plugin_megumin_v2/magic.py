@@ -42,15 +42,15 @@ async def _(session: Uninfo):
         logger.opt(colors=True).info(f"<yellow> 玩家 {user_id} 爆炎次数已达上限 </yellow>")
         await 施法.finish(get_i18n_tips("吟唱上限", 歪比巴卜.language))
 
-    scope = str(session.scope)
     is_group = session.scene.type.name == "GROUP"
     mode = 歪比巴卜.mode if is_group else 歪比巴卜.pmode
-    scene_id = session.scene.id if is_group else None
 
     if not is_group and mode == 0:
         logger.opt(colors=True).info(f"<yellow> 玩家 {user_id} 试图在 被禁用的私信 中施展爆炎 </yellow>")
         return
 
+    scope = str(session.scope)
+    scene_id = session.scene.id if is_group else None
     msg = await case_mode(mode, scope, scene_id)
     if isinstance(msg, list):
         for i in msg:
