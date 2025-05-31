@@ -47,7 +47,7 @@ async def check_and_download_resources():
 
     logger.warning("⚠ 正在初始化爆裂魔法资源...")
     await async_downloader(
-        url="https://gh-proxy.net/https://github.com/youlanan/nonebot_plugin_megumin/releases/download/v0.0.2/Explosion_2.zip",
+        url="https://github.proxy.class3.fun/https://github.com/youlanan/nonebot_plugin_megumin/releases/download/v0.2.0/Explosion_2.zip",
         target_dir=target_dir,
         marker_file=marker,
         max_retries=2,
